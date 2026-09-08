@@ -11,15 +11,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Labs20265Gr12">
+
+        <!-- MainActivity ahora está apagada al inicio (exported="false") -->
         <activity
             android:name=".MainActivity"
-            android:exported="true"
+            android:exported="false"
             android:label="@string/app_name"
+            android:theme="@style/Theme.Labs20265Gr12"
+            android:windowSoftInputMode="adjustResize" />
+
+        <!-- PersonalDataActivity ahora tiene el intent-filter que la hace la principal -->
+        <activity
+            android:name=".PersonalDataActivity"
+            android:exported="true"
+            android:label="@string/title_activity_personal_data"
             android:theme="@style/Theme.Labs20265Gr12"
             android:windowSoftInputMode="adjustResize">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
