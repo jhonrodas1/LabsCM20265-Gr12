@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Lab1 UI</string>
+
+    <!-- Título usado por AndroidManifest.xml -->
+    <string name="title_activity_personal_data">Información Personal</string>
+
+    <!-- PersonalDataActivity -->
+    <string name="titulo_info_personal">Información Personal</string>
+    <string name="label_nombres">Nombres *</string>
+    <string name="label_apellidos">Apellidos *</string>
+    <string name="label_sexo">Sexo:</string>
+    <string name="sexo_hombre">Hombre</string>
+    <string name="sexo_mujer">Mujer</string>
+    <string name="label_fecha_nacimiento">Fecha de nacimiento *</string>
+    <string name="fecha_placeholder">DD/MM/AAAA</string>
+    <string name="boton_cambiar">Cambiar</string>
+    <string name="label_grado_escolaridad">Grado de escolaridad</string>
+    <string name="escolaridad_primaria">Primaria</string>
+    <string name="escolaridad_secundaria">Secundaria</string>
+    <string name="escolaridad_universitaria">Universitaria</string>
+    <string name="escolaridad_otro">Otro</string>
+    <string name="label_especifique_escolaridad">Especifique cuál</string>
+    <string name="boton_siguiente">Siguiente</string>
+    <string name="error_campo_obligatorio">Este campo es obligatorio</string>
+
+    <!-- ContactDataActivity -->
+    <string name="titulo_info_contacto">Información de Contacto</string>
+    <string name="label_telefono">Teléfono *</string>
+    <string name="label_direccion">Dirección</string>
+    <string name="label_email">Email *</string>
+    <string name="label_pais">País *</string>
+    <string name="label_ciudad">Ciudad</string>
+</resources>
