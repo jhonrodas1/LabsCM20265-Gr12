@@ -2,7 +2,7 @@
 
 Este proyecto es una aplicación de Android desarrollada para la asignatura de **Computación Móvil**. La aplicación se enfoca en la implementación de una interfaz de usuario moderna utilizando **Jetpack Compose** y **Material Design 3**, centrada en la captura y validación de datos de usuario.
 
-## 🚀 Características
+##  Características
 
 La aplicación consta de dos pantallas principales de captura de datos:
 
@@ -20,7 +20,7 @@ La aplicación consta de dos pantallas principales de captura de datos:
 - **Ciudad:** Campo con autocompletado y búsqueda filtrada que incluye las principales ciudades de Colombia.
 - **Dirección:** Campo opcional para información detallada.
 
-## 🛠️ Stack Tecnológico
+##  Stack Tecnológico
 
 - **Lenguaje:** Kotlin
 - **UI Framework:** Jetpack Compose
@@ -55,12 +55,15 @@ País: [País]
 Ciudad: [Ciudad]
 ```
 
-## ⚙️ Configuración del Proyecto
+##  Configuración del Proyecto
 
 1. Abrir en **Android Studio**.
 2. Sincronizar con Gradle.
 3. Ejecutar en un emulador o dispositivo físico con Android 12+.
 
 ---
-**Desarrollado por:** Grupo 12 - Computación Móvil  
+**Desarrollado por:** Grupo 10 - Computación Móvil  
 **Universidad de Antioquia**
+## Integrantes
+- Jhon Deivy Rodas Morales
+- Nelson Alcides Puerta Garcia
