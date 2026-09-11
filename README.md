@@ -2,6 +2,11 @@
 
 Este proyecto es una aplicación de Android desarrollada para la asignatura de **Computación Móvil**. La aplicación se enfoca en la implementación de una interfaz de usuario moderna utilizando **Jetpack Compose** y **Material Design 3**, centrada en la captura y validación de datos de usuario.
 
+# Integrantes
+
+Jhon Deivy Rodas Morales
+Nelson Alcides Puerta Garcia
+
 ## 🚀 Características
 
 La aplicación consta de dos pantallas principales de captura de datos:
