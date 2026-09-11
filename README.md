@@ -33,7 +33,7 @@ La aplicación consta de dos pantallas principales de captura de datos:
     - `DatePicker` para manejo de calendarios.
     - `ExposedDropdownMenu` para listas de selección.
 
-## 📋 Validación y Logs
+##  Validación y Logs
 
 La aplicación implementa una lógica de validación robusta:
 1. Al presionar **Siguiente**, se verifica que todos los campos marcados con asterisco `*` no estén vacíos.
