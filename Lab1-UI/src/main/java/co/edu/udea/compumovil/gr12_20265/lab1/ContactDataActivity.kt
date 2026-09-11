@@ -57,9 +57,25 @@ fun ContactDataScreen() {
     var errorEmail by rememberSaveable { mutableStateOf(value = false) }
     var errorPais by rememberSaveable { mutableStateOf(value = false) }
 
-    // Listas para Autocompletado cargadas desde recursos
+    // Listas para Autocompletado
     val paisesLatam = androidx.compose.ui.res.stringArrayResource(R.array.paises_latam).toList()
-    val ciudadesColombia = androidx.compose.ui.res.stringArrayResource(R.array.ciudades_colombia).toList()
+    
+    // Cargamos ciudades iniciales desde recursos y luego actualizamos desde API
+    val ciudadesIniciales = androidx.compose.ui.res.stringArrayResource(R.array.ciudades_colombia).toList()
+    var ciudadesColombia by remember { mutableStateOf(ciudadesIniciales) }
+
+    // Efecto para cargar ciudades desde la API
+    LaunchedEffect(Unit) {
+        try {
+            val response = RetrofitClient.cityService.getCities()
+            if (response.isNotEmpty()) {
+                ciudadesColombia = response.map { it.name }.sorted()
+                Log.d(TAG, "Ciudades cargadas desde API: ${ciudadesColombia.size}")
+            }
+        } catch (e: Exception) {
+            Log.e(TAG, "Error cargando ciudades desde API, usando locales", e)
+        }
+    }
 
     Column(
         modifier = Modifier
